@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&family=Roboto:wght@100;300;400;700&display=swap");
+body {
+  margin: 0;
+}
+
+.modal-wrapper {
+  position: absolute;
+  z-index: 999999999;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 450px;
+  display: inline-block;
+  background-color: var(--primary-default);
+  color: var(--background-light);
+  padding: 60px 20px;
+  border-radius: 20px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-size: 90px;
+  font-family: "Reenie Beanie", cursive;
+}
+
+#cake {
+  max-width: 300px;
+}
+
+.wrapper {
+  /* background-image: url("img/bg3.jpg"); */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+#timer {
+  color: green;
+  font-size: 20px;
+  padding: 16px;
+  display: inline;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.target {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+}
